@@ -50,5 +50,25 @@ a {
 .left-side {
     color: white;
 }
-
-.right-side {}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+.image {
+    height: 100px;
+    width: 100px;
+    border: #f5d870 4px solid;
+    background-color: #3b3b3b;
+    border-radius: 12px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
