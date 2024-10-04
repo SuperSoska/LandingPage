@@ -130,3 +130,10 @@ margin-top: -24px;
 .sign-text {
     font-weight: bold;
 }
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+}
