@@ -111,3 +111,22 @@ font-weight: bold;
 text-align: right;
 margin-top: -24px;
 }
+.sign-up {
+    background-color: #3882F6;
+    margin: 24px;
+    color: #F9FAF8;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-button {
+    background-color: #3882F6;
+    border: #E5E7EB 3px solid;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+}
+.sign-text {
+    font-weight: bold;
+}
