@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+ul a {
+    text-decoration: none;
+    color: var(--orange-300);
+}
+:root {
+    --orange-100: #F3B700;
+    --orange-200: #FAA300;
+    --orange-300: #E57C04;
+    --orange-400: #FF6201;
+    --orange-500: #F63E02;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+}
+.header-content {
+    padding-left: 38px;
+}
+.logo {
+    height: 36px;
+}
