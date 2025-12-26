@@ -1,6 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: var(--orange-100);
+    margin: 0;
+    padding: 0;
 }
 ul {
   list-style: none;
@@ -26,10 +29,23 @@ ul a {
     justify-content: space-between;
     align-items: center;
     padding-left: 32px;
+    background-color: var(--orange-100);
 }
 .header-content {
     padding-left: 38px;
+    display: flex;
+    gap: 24px;
 }
 .logo {
     height: 36px;
+}
+.content-logo {
+    max-height: 96px;
+    width: auto;
+    flex-grow: 2;
+    padding: 20px;
+}
+.header-info {
+    justify-content: flex-start;
+    padding: 0;
 }
