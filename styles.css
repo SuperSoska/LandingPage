@@ -8,10 +8,11 @@ body {
 ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  gap: 12px;
 }
 li {
   display: inline-block;
-  margin-right: 20px;
 }
 ul a {
     text-decoration: none;
@@ -39,11 +40,10 @@ ul a {
     height: 36px;
 }
 .content-logo {
-    max-height: 200px;
-    width: 40%;
-    padding-top: 20px;
+width: 250px;
+max-height: 140px;
+object-fit: fill;
 }
 .header-info {
-    padding: 0;
-    width: 40%;
+    width: 60%;
 }
