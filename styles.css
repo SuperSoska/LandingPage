@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     background-color: var(--orange-100);
     margin: 0;
-    padding: 0;
+    padding: 0px 36px 0px 36px;
 }
 ul {
   list-style: none;
@@ -28,14 +28,12 @@ ul a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 32px;
     background-color: var(--orange-100);
 }
 .header-content {
     display: flex;
-    gap: 36px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .logo {
     height: 36px;
